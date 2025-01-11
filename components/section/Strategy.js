@@ -59,7 +59,7 @@ export default function Strategy() {
             </div>
 
             <div className="bg-primary-600 aspect-[14/9] sm:aspect-auto sm:py-36 lg:py-40 bg-pattern bg-strategy-pattern rounded-xl flex items-center justify-center self-stretch">
-                <div className="relative bottom-10 left-10 rounded-full size-[110px] xs:size-auto px-4 py-2 bg-white flex gap-2 justify-center items-center border-10 border-blue-300">
+                <div className="relative bottom-10 left-10 rounded-full px-4 py-2 bg-white flex gap-2 justify-center items-center border-10 border-blue-300">
                     <BrandIcon />
                     <span className="text-sm xs:text-lg text-secondary-1000 font-medium">AI-Driven Forecasts</span>
                 </div>
