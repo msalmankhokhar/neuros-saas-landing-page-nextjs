@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .maxContainer{
+        @apply min-[1440px]:max-w-[1204px] mx-auto
+    }
+    
+    .paddingContainer{
+        @apply px-5 sm:px-10 md:px-14 min-[1440px]:px-0
+    }
+
+    .bg-pattern{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .btn{
+        @apply px-5 py-3 text-xs font-bold rounded-lg
+    }
+
+    .btn-primary{
+        @apply bg-primary-600 text-white
+    }
+
+    .btn-hollow{
+        @apply text-secondary-1000 border border-secondary-300
+    }
+
+    .btn-hollow-colored{
+        @apply text-primary-600 border border-primary-300
+    }
+
+    .btn-icon{
+        @apply flex items-center justify-center gap-2
+    }
+}
+
