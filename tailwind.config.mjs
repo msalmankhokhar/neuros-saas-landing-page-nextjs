@@ -10,6 +10,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/img/pattern.png')",
         'strategy-pattern': "url('/img/pattern2.png')",
+        'experience-pattern': "url('/img/pattern3.png')",
       },
       colors: {
         primary: {
@@ -21,6 +22,15 @@ export default {
           700: '#2D66C4',
           800: '#224C93',
         },
+        // primary: {
+        //   200: '#FEE2E2', // Light Red
+        //   300: '#FBB6B6', // Slightly darker
+        //   400: '#F98888', // Medium Light Red
+        //   500: '#F76060', // Main Red
+        //   600: '#F53838', // Bold Red
+        //   700: '#C42D2D', // Darker Red
+        //   800: '#931F1F', // Deep Red
+        // },
         secondary: {
           100: '#F5F7FA',
           200: '#ECEEF4',
@@ -35,7 +45,9 @@ export default {
         }
       },
       screens: {
+        'min-351': '351px',
         'min-422': '422px',
+        'min-454': '454px',
         'xs': '490px',
         'min-910': '910px',
       },
@@ -51,5 +63,7 @@ export default {
       '10': '10px',
     }
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/aspect-ratio'),
+  ],
 };

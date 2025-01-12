@@ -16,7 +16,7 @@ export default function Navbar() {
                 </ul>
             </div>
 
-            <div className="hidden min-422:flex gap-2 items-center justify-center">
+            <div className="hidden min-454:flex gap-2 items-center justify-center">
                 <Button variant={'btn-hollow'}>Get a demo</Button>
                 <Button variant={'btn-primary'}>Start your free trial</Button>
             </div>

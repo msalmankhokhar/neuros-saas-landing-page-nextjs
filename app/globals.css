@@ -3,37 +3,55 @@
 @tailwind utilities;
 
 @layer utilities {
-    .maxContainer{
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .maxContainer {
         @apply min-[1440px]:max-w-[1204px] mx-auto
     }
-    
-    .paddingContainer{
+
+    .paddingContainer {
         @apply px-5 sm:px-10 md:px-14 min-[1440px]:px-0
     }
 
-    .bg-pattern{
+    .bg-pattern {
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .btn{
+    /* Button */
+    .btn {
         @apply px-5 py-3 text-xs font-bold rounded-lg
     }
 
-    .btn-primary{
+    .btn-primary {
         @apply bg-primary-600 text-white
     }
 
-    .btn-hollow{
+    .btn-primary-white {
+        @apply text-primary-600 bg-white
+    }
+
+    .btn-hollow {
         @apply text-secondary-1000 border border-secondary-300
     }
 
-    .btn-hollow-colored{
+    .btn-hollow-colored {
         @apply text-primary-600 border border-primary-300
     }
 
-    .btn-icon{
+    .btn-icon {
         @apply flex items-center justify-center gap-2
     }
 }
-
