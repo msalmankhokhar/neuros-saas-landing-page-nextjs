@@ -4,6 +4,7 @@ import Testemonial from '../Testemonial'
 import ColoredBox from '../ColoredBox'
 import Button from '../Button'
 import BrandIcon from '../BrandIcon'
+import MotionDiv from '../MotionDiv'
 
 export default function Experience() {
     return (
@@ -14,11 +15,11 @@ export default function Experience() {
                     At Neuros, we pride ourselves on delivering top-notch AI-driven business analytics. But don't just<br />take our word for it. Hear what our satisfied users have to say.
                 </p>
             </div>
-            <div className='flex gap-5 max-w-full items-center justify-center overflow-x-scroll no-scrollbar'>
+            <MotionDiv className='flex gap-5 max-w-full items-center justify-center overflow-x-scroll no-scrollbar'>
                 <Testemonial />
                 <Testemonial />
                 <Testemonial />
-            </div>
+            </MotionDiv>
             <div className='py-7 sm:py-10'>
                 <ColoredBox bg='bg-experience-pattern' aspectRatio={false} padding='px-7 py-7 lg:py-10' center={false}>
                     <div className='self-stretch flex flex-col lg:flex-row gap-12 justify-between'>

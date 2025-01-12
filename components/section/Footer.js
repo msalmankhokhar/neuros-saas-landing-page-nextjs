@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../Logo'
 import Link from 'next/link'
 import { Facebook, FacebookIcon, Instagram, Linkedin, Twitter } from 'lucide-react'
+import MotionDiv from '../MotionDiv'
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
             <Logo />
             <div className='h-[0.1px] flex-1 border-b'></div>
         </div>
-        <div className='py-14 flex flex-wrap flex-col sm:grid sm:grid-flow-row sm:grid-cols-2 min-910:flex min-910:flex-row min-910:justify-between gap-y-6 gap-x-20'>
+        <MotionDiv className='py-14 flex flex-wrap flex-col sm:grid sm:grid-flow-row sm:grid-cols-2 min-910:flex min-910:flex-row min-910:justify-between gap-y-6 gap-x-20'>
 
             <div className="flex flex-col gap-4">
                 <h1 className='font-bold'>About Neuros</h1>
@@ -64,7 +65,7 @@ export default function Footer() {
                 </ul>
             </div>
 
-        </div>
+        </MotionDiv>
 
         <div className='pt-3 border-t flex items-center justify-between gap-6 text-sm text-secondary-600'>
             <p>&copy; 2023 Salman Khokhar - All Rights Reserved</p>
