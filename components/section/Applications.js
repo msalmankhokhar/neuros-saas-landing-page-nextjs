@@ -23,7 +23,7 @@ export default function Applications() {
                 Advanced business intelligence tools enhance efficiency across your entire operation. By predicting future revenue and dissecting marketing effectiveness, these tools provide you with the critical insights needed for informed decision-making.
             </MotionDiv>
 
-            <MotionDiv className='flex flex-col flex-wrap min-910:flex-row items-center justify-center gap-5'>
+            <div className='flex flex-col flex-wrap min-910:flex-row items-center justify-center gap-5'>
 
                 <ApplicationCard /> 
                 <ApplicationCard /> 
@@ -35,7 +35,7 @@ export default function Applications() {
                 <ApplicationCard /> 
                 <ApplicationCard /> 
 
-            </MotionDiv>
+            </div>
 
             <Button variant={'btn-hollow'}>Explore more applications</Button>
 
